@@ -155,7 +155,7 @@ const education = [
   },
   {
     degree: "PG Diploma in Data Science",
-    school: "IIIT Bangalore",
+    school: "International Institute of Information Technology, Bangalore",
     period: "2020 – 2021",
     url: "https://www.iiitb.ac.in/"
   }
