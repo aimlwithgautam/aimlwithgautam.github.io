@@ -186,7 +186,7 @@ const certifications = [
   },
   {
     name: "IBM watsonx Foundations",
-    url: "https://www.linkedin.com/in/gautam-keshri-5a1b075b/details/certifications/"
+    url: "https://www.credly.com/badges/97fe6dad-d43f-466f-a3e6-4cfe6b6acb74/linked_in_profile"
   },
   {
     name: "watsonx.ai Sales Foundation",
@@ -366,7 +366,7 @@ function App() {
             <div className="hero-actions">
               <a className="primary-btn" href="#projects">Explore My Work <ArrowUpRight size={15} /></a>
               <a className="secondary-btn" href="#contact">Get In Touch</a>
-      
+
             </div>
             <SocialLinks />
             <div className="hero-meta"><span><MapPin size={13} /> BASED IN JAPAN</span><span>AI · ML · GENERATIVE AI</span></div>
@@ -466,7 +466,7 @@ function App() {
         <section className="section" id="certifications">
           <SectionHeading index="06" label="CERTIFICATIONS" title={<>Learning that keeps <span>moving.</span></>} />
           <div className="certification-grid">
-          
+
 
             {certifications.map((item, index) => (
               <div className="certification-item" key={index}>
@@ -487,8 +487,8 @@ function App() {
                 )}
               </div>
             ))}
-          
-          
+
+
           </div>
         </section>
 
