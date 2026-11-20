@@ -88,9 +88,60 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter,
 .education-card .card-label { display:block; color:var(--muted); }
 .education-card h3 { font-size:19px; line-height:1.4; margin:11px 0 7px; }
 .education-card p { color:var(--muted); font-size:13px; line-height:1.6; margin:0; }
-.certification-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+/* Certifications Section */
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.certification-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 13px 15px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.certification-item:hover {
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+.certification-item>svg {
+  flex-shrink: 0;
+  color: white;
+}
+
+.certification-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.certification-link svg {
+  flex-shrink: 0;
+}
+
+.certification-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* .certification-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
 .certification-item { display:flex; align-items:center; gap:10px; background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:13px 15px; color:var(--muted); font-size:13px; line-height:1.5; }
-.certification-item svg { flex-shrink:0; color:white; }
+.certification-item svg { flex-shrink:0; color:white; } */
+
+
 .contact-panel { text-align:center; background:#354FD0; border:1px solid var(--border); border-radius:18px; padding:65px 35px; }
 .contact-panel h2 { max-width:850px; margin:0 auto 17px; }
 .contact-panel > p:not(.eyebrow) { color:var(--muted); max-width:650px; line-height:1.8; margin:0 auto 22px; font-size:14px; }

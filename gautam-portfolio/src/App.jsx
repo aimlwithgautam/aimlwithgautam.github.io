@@ -161,22 +161,163 @@ const education = [
   }
 ];
 
+
+
 const certifications = [
-  "2025 IBMer watsonx Challenge",
-  "watsonx Orchestrate Practitioner Advanced",
-  "watsonx.governance Technical Sales Intermediate",
-  "watson Discovery Technical Sales Intermediate",
-  "watsonx.ai Technical Sales Intermediate",
-  "IBM watsonx Foundations",
-  "watsonx.ai Sales Foundation",
-  "watsonx.governance Sales Foundation",
-  "Cognitive Practitioner",
-  "Data Analysis Using Python",
-  "Machine Learning with Python – Level 1",
-  "Data Visualization Using Python",
-  "Python for Data Science",
-  "WebMethods API Management Technical Sales Intermediate"
+  {
+    name: "2025 IBMer watsonx Challenge",
+    url: "https://www.credly.com/badges/9ee40a88-5313-4644-9425-f35f40c04d6e/linked_in_profile"
+  },
+  {
+    name: "watsonx Orchestrate Practitioner Advanced",
+    url: "https://www.credly.com/badges/0888ed56-ec0b-4317-b1a4-4adf71da4317/linked_in_profile"
+  },
+  {
+    name: "watsonx.governance Technical Sales Intermediate",
+    url: "https://www.credly.com/badges/7ae02a5c-a4d1-4e97-a839-bcaabf6506c2/linked_in_profile"
+  },
+  {
+    name: "watsonx Discovery Technical Sales Intermediate",
+    url: "https://www.credly.com/badges/cbb447dc-0cc7-49bf-93ac-7780bd9c8e4e/linked_in_profile"
+  },
+  {
+    name: "watsonx.ai Technical Sales Intermediate",
+    url: "https://www.credly.com/badges/ff3a67b5-3c0b-4aca-b520-a701a981341c/linked_in_profile"
+  },
+  {
+    name: "IBM watsonx Foundations",
+    url: "https://www.linkedin.com/in/gautam-keshri-5a1b075b/details/certifications/"
+  },
+  {
+    name: "watsonx.ai Sales Foundation",
+    url: "https://www.credly.com/badges/42715e79-b303-4265-a270-a0e03ad1b1ab/linked_in_profile"
+  },
+  {
+    name: "watsonx.governance Sales Foundation",
+    url: "https://www.credly.com/badges/5b943303-2433-4fcb-acf7-19ae953e9c51/linked_in_profile"
+  },
+  {
+    name: "Cognitive Practitioner",
+    url: "https://www.credly.com/badges/7baa5055-7444-47a8-a683-799a5aaf8671?source=linked_in_profile"
+  },
+  {
+    name: "Data Analysis Using Python",
+    url: "https://www.credly.com/badges/140e2f9c-93c9-441c-b944-0841a47a4fca?source=linked_in_profile"
+  },
+  {
+    name: "Machine Learning with Python – Level 1",
+    url: "https://www.credly.com/badges/5cfd6054-0471-48a2-9b9f-55e277fabb94?source=linked_in_profile"
+  },
+  {
+    name: "Data Visualization Using Python",
+    url: "https://www.credly.com/badges/28df37d1-357d-4885-9e03-3d485067b573?source=linked_in_profile"
+  },
+  {
+    name: "Python for Data Science",
+    url: "https://www.credly.com/badges/622f8e96-bc34-4f3b-9f30-b1eb3d3b75ab?source=linked_in_profile"
+  },
+  {
+    name: "WebMethods API Management Technical Sales Intermediate",
+    url: "https://www.credly.com/badges/422acb32-9f03-40f8-8626-9d64c178dc52/linked_in_profile"
+  },
+  {
+    name: "webMethods Integration Technical Sales Intermediate",
+    url: "https://www.credly.com/badges/22f6fd08-2c1c-4b02-b595-b634a9615583/linked_in_profile"
+  },
+  {
+    name: "Primerli - Aerospace Industry Foundations",
+    url: ""
+  },
+  {
+    name: "webMethods Integration Sales Foundation",
+    url: "https://www.credly.com/badges/5ae3be11-05ea-48f9-89ee-4fb3f44dae73/linked_in_profile"
+  },
+  {
+    name: "Vault Sales Foundation",
+    url: "https://www.credly.com/badges/2cf5d261-f88b-415b-ba10-f14f933dbd51/linked_in_profile"
+  },
+  {
+    name: "watsonx Orchestrate Technical Sales Intermediate",
+    url: "https://www.credly.com/badges/495bed2c-10de-46bb-a305-81b85d8db882/linked_in_profile"
+  },
+  {
+    name: "watsonx Discovery Sales Foundation",
+    url: "https://www.credly.com/badges/3d04553b-6c35-4f58-a769-ec2f8e42c1bc/linked_in_profile"
+  },
+  {
+    name: "watsonx Assistant Sales Foundation",
+    url: "https://www.credly.com/badges/d165e0aa-0d18-4dc5-a924-b57d6b6e8ff8/linked_in_profile"
+  },
+  {
+    name: "Watson Discovery Sales Foundation V2",
+    url: "https://www.credly.com/badges/2fc0f317-bcfa-41fb-a93f-f34a89dc54e3/linked_in_profile"
+  },
+  {
+    name: "IBM Consulting Way",
+    url: "https://www.credly.com/badges/7517e251-67ea-4207-b12a-1507c59d30c2/linked_in_profile"
+  },
+  {
+    name: "Data Science for Business - Level 1",
+    url: "https://www.credly.com/badges/3f78aaa9-38e1-403b-a718-5f98ffea9de4?source=linked_in_profile"
+  },
+  {
+    name: "Data Science Foundations - Level 2 (V2)",
+    url: "https://www.credly.com/badges/76e44f7b-a92c-404d-a4d7-f4ccb8da3363?source=linked_in_profile"
+  },
+  {
+    name: "Data Science Methodologies",
+    url: "https://www.credly.com/badges/b5c711e2-96b3-4cad-b2d6-dd852c855d5b?source=linked_in_profile"
+  },
+  {
+    name: "Data Science Foundations - Level 1",
+    url: "https://www.credly.com/badges/927fa714-1847-41f4-bae1-66fce44ae115?source=linked_in_profile"
+  },
+  {
+    name: "Node-RED: Basics to Bots",
+    url: "https://www.credly.com/badges/b66e5744-99c5-4579-975c-a103a771bb98/linked_in_profile"
+  },
+  {
+    name: "IBM Agile Explorer",
+    url: "https://www.credly.com/badges/ccad5f30-a38f-405b-a146-14858981f5e9/linked_in_profile"
+  },
+  {
+    name: "Build Your Own Chatbot - Level 1",
+    url: "https://www.credly.com/badges/42a4d8a2-aeca-474e-8919-f9db8ebdbb9a/linked_in_profile"
+  },
+  {
+    name: "IBM Automation Essentials",
+    url: "https://www.credly.com/badges/ccde007b-1a92-4549-b495-1b490317f1b2/linked_in_profile"
+  },
+  {
+    name: "IBM Blockchain Essentials V2",
+    url: "https://www.credly.com/badges/55db39c4-79ba-446b-8e09-740b2213e386/linked_in_profile"
+  },
+  {
+    name: "SkillSoft Growth Mind Set",
+    url: "https://www.credential.net/profile/gautamkeshri/wallet"
+  },
+  {
+    name: "Finance & Accounting Essentials",
+    url: "https://www.credly.com/badges/454e924b-137c-4699-8f3b-2a332a12394b/linked_in_profile"
+  },
+  {
+    name: "Enterprise Design Thinking Practitioner",
+    url: "https://www.credly.com/badges/a1513262-55dd-4f54-b014-b89e9de7d493/linked_in_profile"
+  },
+  {
+    name: "The IBM Way",
+    url: "https://www.credly.com/badges/4b34d3b7-d644-45ce-aac8-b10d61cf186f/linked_in_profile"
+  },
+  {
+    name: "Watson and Cloud Foundations",
+    url: "https://www.credly.com/badges/f6af2168-7251-4f21-9ae5-0b2ef07c71d7/linked_in_profile"
+  },
+  {
+    name: "Statistics 101",
+    url: "https://www.credly.com/badges/33c89693-1a1b-43da-b7a0-c9a7ec6ebfe7/linked_i"
+  }
 ];
+
 
 function SocialLinks({ footer = false }) {
   return (
@@ -325,7 +466,29 @@ function App() {
         <section className="section" id="certifications">
           <SectionHeading index="06" label="CERTIFICATIONS" title={<>Learning that keeps <span>moving.</span></>} />
           <div className="certification-grid">
-            {certifications.map((item) => <div className="certification-item" key={item}><Award size={17} /><span>{item}</span></div>)}
+          
+
+            {certifications.map((item, index) => (
+              <div className="certification-item" key={index}>
+                <Award size={17} />
+
+                {item.url ? (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="certification-link"
+                  >
+                    {item.name}
+                    <ExternalLink size={13} />
+                  </a>
+                ) : (
+                  <span>{item.name}</span>
+                )}
+              </div>
+            ))}
+          
+          
           </div>
         </section>
 
