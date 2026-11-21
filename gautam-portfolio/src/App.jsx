@@ -594,9 +594,9 @@ function App() {
         <section className="section" id="professional-moments">
           <SectionHeading
             index="07"
-            label="PROFESSIONAL MOMENTS"
-            title={<>Beyond work, <span>building connections.</span></>}
-            description="A collection of moments from business meetings, client presentations, professional visits and team experiences."
+            label="BUSINESS ACTIVITIES & COLLABORATIONS"
+            title={<>Collaborating, Presenting and <span>Engaging with Clients.</span></>}
+            description="A collection of business trips, client presentations, professional meetings and collaborative activities across different business engagements."
           />
 
           <div className="certificate-marquee">
