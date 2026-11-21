@@ -23,3 +23,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Professional photos
+/public/professional-moments/
+
+# Certificates
+/public/certificates/
