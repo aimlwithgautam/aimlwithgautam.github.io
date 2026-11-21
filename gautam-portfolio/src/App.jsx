@@ -400,19 +400,19 @@ function SectionHeading({ index, label, title, description }) {
 
 const professionalMoments = [
   {
-    image: "/professional-moments/Business Meetings.jpg",
+    image: "https://res.cloudinary.com/xcswev0p/image/upload/v1795224175/Business_Meetings.jpg",
     caption: "Business Meetings"
   },
   {
-    image: "/professional-moments/Client Presentation-1.jpg",
+    image: "https://res.cloudinary.com/xcswev0p/image/upload/v1795224173/Client_Presentation-1.jpg",
     caption: "Client Presentation-1"
   },
   {
-    image: "/professional-moments/Client Presentation-2.jpg",
+    image: "https://res.cloudinary.com/xcswev0p/image/upload/v1795224174/Client_Presentation-2.jpg",
     caption: "Client Presentation-2"
   },
   {
-    image: "/professional-moments/Team gatherings.jpg",
+    image: "https://res.cloudinary.com/xcswev0p/image/upload/v1795224174/Team_gatherings.jpg",
     caption: "Team Gatherings"
   }
 ];
