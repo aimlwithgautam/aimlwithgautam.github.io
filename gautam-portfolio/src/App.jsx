@@ -26,7 +26,7 @@ const profile = {
   linkedin: "https://www.linkedin.com/in/gautam-keshri-5a1b075b/",
   github: "https://github.com/aimlwithgautam",
   youtube: "https://www.youtube.com/@gautam-jap",
-  medium: "https://medium.com/@aimlwithgautlwithgautam",
+  medium: "https://medium.com/@aimlwithgautam",
 };
 
 const socialLinks = [
